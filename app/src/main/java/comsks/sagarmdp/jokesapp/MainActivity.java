@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     public void share(View view) {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, "THANK YOU GUYS    ....");
+        intent.putExtra(Intent.EXTRA_TEXT, "SORRY FOR THE  INCONVENIENCE ....");
 
         startActivity(intent);
 
